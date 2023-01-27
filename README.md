@@ -1,6 +1,6 @@
 A little packet sniffer written with Rust, based on [libpnet](https://github.com/libpnet/libpnet).
 
-You could run the application with cargo:
+You can run the application with cargo:
 
 ```
  % cargo run -- --help
@@ -28,7 +28,7 @@ ARGS:
 ```
 
 
-Don't forget you need root access to access to the interfaces:
+Don't forget you need root access to read from interfaces:
 
 ```
 % sudo cargo run -- en0
