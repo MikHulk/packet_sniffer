@@ -1,0 +1,9 @@
+[package]
+name = "packet_sniffer"
+version = "1.0.0"
+authors = ["mikv <m.viey@wanadoo.fr>"]
+edition = "2018"
+
+[dependencies]
+pnet = "0.33.0"
+clap = "^2.0.0"
